@@ -17,4 +17,20 @@ public class Calc {
         int res = x * y;
         return res;
     }
+    public static double add(double x, double y) {
+        double result1 = x + y;
+        return result1;
+    }
+    public static double sub(double x, double y) {
+        double result2 = x - y;
+        return result2;
+    }
+    public static double div(double x, double y) {
+        double result3 = x / y;
+        return result3;
+    }
+    public static double mul(double x, double y) {
+        double result4 = x * y;
+        return result4;
+    }
 }
